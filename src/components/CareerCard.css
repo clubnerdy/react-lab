@@ -1,0 +1,37 @@
+.CareerCard {
+  min-height: 249px;
+  padding: 28px;
+  border: 1px solid var(--line-normal);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CareerCard .top {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.CareerCard .title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(-label-normal);
+}
+
+.CareerCard .date {
+  font-size: 14px;
+  color: var(--label-alternative);
+}
+
+.CareerCard .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.CareerCard .description {
+  font-size: 14px;
+  color: inherit;
+}
