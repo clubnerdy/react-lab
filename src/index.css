@@ -24,6 +24,11 @@
   --label-disable: rgba(55, 56, 60, 0.16);
   --label-white: #ffffff;
 
+  /* line */
+  --line-normal: rgba(112, 115, 124, 0.22);
+  --line-neutral: rgba(112, 115, 124, 0.16);
+  --line-alternative: rgba(112, 115, 124, 0.08);
+
   /* shadow */
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 
