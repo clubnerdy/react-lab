@@ -1,4 +1,6 @@
 import navIcon from "./icon/icon-nav.svg";
-import Exam from "./images/example.png";
+import companyIcon from "./icon/icon-company.svg";
 
-export { navIcon, Exam };
+import examImage from "./images/example.png";
+
+export { navIcon, companyIcon, examImage };
