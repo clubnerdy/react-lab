@@ -1,13 +1,12 @@
 import "./SkillLabel.css";
 
-const SkillLabel = () => {
+const SkillLabel = ({ skills }) => {
   return (
     <div className="SkillLabel">
       <ul>
-        <li>아이템</li>
-        <li>아이템</li>
-        <li>아이템</li>
-        <li>아이템</li>
+        {skills.map((skill) => (
+          <li key={skill}>{skill}</li>
+        ))}
       </ul>
     </div>
   );

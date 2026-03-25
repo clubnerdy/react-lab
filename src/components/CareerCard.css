@@ -2,6 +2,8 @@
   min-height: 249px;
   padding: 28px;
   border: 1px solid var(--line-normal);
+  border-radius: 16px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 20px;

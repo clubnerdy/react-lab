@@ -1,12 +1,14 @@
 import "./App.css";
 import CareerCard from "./components/CareerCard";
-import SkillLabel from "./components/SkillLabel";
+import projects from "@/data/projects";
 
 function App() {
   return (
     <>
       <div>
-        <CareerCard />
+        {projects.map((item) => (
+          <CareerCard key={item.id} {...item} />
+        ))}
       </div>
     </>
   );
