@@ -29,6 +29,10 @@
   --line-neutral: rgba(112, 115, 124, 0.16);
   --line-alternative: rgba(112, 115, 124, 0.08);
 
+  /* interaction */
+  --interation-inactive: #989ba2;
+  --interation-disable: #f4f4f5;
+
   /* shadow */
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 

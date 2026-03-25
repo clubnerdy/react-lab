@@ -1,8 +1,8 @@
 import { companyIcon } from "@/assets";
 import TabList from "./TabList";
 import { useState } from "react";
-import projects from "@/data/projects";
-import CareerCard from "./CareerCard";
+import careerProjects from "@/data/projects";
+import CareerCard from "./card/CareerCard";
 import "./CareerContainer.css";
 
 const CareerContainer = () => {
@@ -32,7 +32,7 @@ const CareerContainer = () => {
           <TabList tabs={tabs} activeTab={active} onTabChange={setActive} />
         </div>
         <div className="career_list">
-          {projects.map((item) => (
+          {careerProjects.map((item) => (
             <CareerCard key={item.id} {...item} />
           ))}
         </div>

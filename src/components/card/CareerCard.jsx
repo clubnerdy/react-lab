@@ -1,5 +1,5 @@
 import "./CareerCard.css";
-import SkillLabel from "./SkillLabel";
+import SkillLabel from "../SkillLabel";
 
 const CareerCard = ({ title, date, description, skills }) => {
   return (
