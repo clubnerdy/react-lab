@@ -1,0 +1,13 @@
+.SkillLabel ul {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.SkillLabel ul li {
+  padding: 8px 12px;
+  background-color: var(--primary-disable);
+  border-radius: 60px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-normal);
+}

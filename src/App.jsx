@@ -1,18 +1,16 @@
 import "./App.css";
-import MainVisual from "./pages/MainVisual";
-import Skill from "./pages/Skill";
-import Book from "./pages/Book";
-import Category from "./components/Category";
+import ProjectCard from "./components/card/ProjectCard";
+import { detailProjects } from "@/data/projects";
 
 function App() {
+  console.log(detailProjects.map((item) => item));
   return (
     <>
-      <MainVisual />
       <div>
-        <Skill />
-        <Book />
+        {detailProjects.map((item) => (
+          <ProjectCard key={item.id} {...item} />
+        ))}
       </div>
-      <Category />
     </>
   );
 }

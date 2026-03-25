@@ -1,0 +1,85 @@
+.ProjectCard {
+  max-width: 296px;
+  min-height: 366px;
+  border: 1px solid var(--line-normal);
+  border-radius: 16px;
+  display: flex;
+}
+
+.ProjectCard a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.ProjectCard .top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ProjectCard .top .row {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ProjectCard .top .row figure {
+  max-width: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  background-color: var(--interation-inactive);
+  overflow: hidden;
+}
+
+.ProjectCard .top .row figure img {
+  opacity: 0;
+}
+
+.ProjectCard .top .row .label {
+  padding: 2px 5px;
+  font-size: 8px;
+  font-weight: 600;
+  border-radius: 2px;
+  background-color: var(--interation-inactive);
+  color: var(--label-white);
+}
+
+.ProjectCard .top .row .label.label_live {
+  background-color: var(--primary-normal);
+}
+
+.ProjectCard .top .column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ProjectCard .top .column h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ProjectCard .top .column p {
+  font-size: 14px;
+  color: var(--label-alternative);
+}
+
+.ProjectCard .bottom {
+  display: flex;
+  gap: 8px;
+}
+
+.ProjectCard .bottom figure {
+  max-width: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--background-normal);
+  box-shadow: var(--shadow);
+}
+
+.ProjectCard .bottom figure img {
+  width: 100%;
+}
