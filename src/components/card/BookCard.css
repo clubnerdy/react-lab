@@ -1,0 +1,57 @@
+.BookCard {
+  max-width: 296px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.BookCard figure {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.BookCard .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.BookCard .container .contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.BookCard .container .contents .label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--label-alternative);
+}
+
+.BookCard .container .contents .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.BookCard .container .contents .date {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--label-alternative);
+}
+
+.BookCard .container ul {
+  display: flex;
+  gap: 6px;
+}
+
+.BookCard .container ul li {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-normal);
+  background-color: var(--primary-disable);
+  padding: 8px 12px;
+  border-radius: 20px;
+}
