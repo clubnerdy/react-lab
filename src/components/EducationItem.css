@@ -1,0 +1,43 @@
+.EducationItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.EducationItem .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.EducationItem .description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.EducationItem .description ul {
+  display: flex;
+  align-items: center;
+}
+
+.EducationItem .description ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--label-alternative);
+}
+
+li + li::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 17px;
+  background: var(--line-normal);
+  margin: 0 12px;
+  vertical-align: middle;
+}
+
+.EducationItem .description p {
+  font-size: 14px;
+  font-weight: 500;
+}
