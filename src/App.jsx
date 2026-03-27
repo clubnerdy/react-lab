@@ -1,15 +1,17 @@
 import "./App.css";
-import ProjectCard from "./components/card/ProjectCard";
-import { detailProjects } from "@/data/projects";
+import BookCard from "./components/card/BookCard";
+import SKILL from "./assets/content/skillsEnum";
 
 function App() {
-  console.log(detailProjects.map((item) => item));
   return (
     <>
       <div>
-        {detailProjects.map((item) => (
-          <ProjectCard key={item.id} {...item} />
-        ))}
+        <BookCard
+          label={"PC/Mobile"}
+          title={"Haewooglobalcargo map 앱 UX/UI"}
+          date={"May,2024"}
+          skills={[SKILL.FIGMA]}
+        />
       </div>
     </>
   );
