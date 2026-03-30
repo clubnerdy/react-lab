@@ -27,7 +27,7 @@
   color: var(--label-alternative);
 }
 
-li + li::before {
+.edu_con + .edu_con::before {
   content: "";
   display: inline-block;
   width: 1px;

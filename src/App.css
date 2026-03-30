@@ -105,3 +105,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.inner {
+  max-width: 944px;
+  margin: 0 auto;
+}

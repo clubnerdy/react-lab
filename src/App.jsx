@@ -1,15 +1,12 @@
 import "./App.css";
-import EducationContainer from "./components/EducationContainer";
-import { educations } from "./data/educations";
+import Hero from "./sections/Hero";
+import Nav from "@/components/Nav";
 
 function App() {
   return (
     <>
-      <div>
-        {educations.map((item) => (
-          <EducationContainer key={item.topic} {...item} />
-        ))}
-      </div>
+      <Hero />
+      <Nav />
     </>
   );
 }

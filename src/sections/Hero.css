@@ -1,0 +1,35 @@
+.Hero {
+  height: 100vh;
+}
+
+.Hero .inner {
+  background-color: antiquewhite;
+}
+
+.Hero .container {
+  text-align: center;
+}
+
+.Hero .container figure {
+  width: 100px;
+}
+
+.Hero .container img {
+  width: 100%;
+}
+
+.Hero .inner .contents {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.Hero .inner .contents .title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Hero .inner .contents .title span {
+  color: var(--primary-strong);
+}

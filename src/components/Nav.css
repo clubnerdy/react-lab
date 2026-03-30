@@ -1,4 +1,9 @@
 .Nav {
+  display: flex;
+  justify-content: center;
+}
+
+.Nav .container {
   display: inline-flex;
   align-items: center;
   background-color: var(--fill-normal);
@@ -11,11 +16,11 @@
   padding: 0 16px;
 }
 
-.Nav > ul {
+.Nav ul {
   display: flex;
 }
 
-.Nav > ul > li {
+.Nav ul li {
   padding: 12px 20px;
   cursor: pointer;
   font-size: 14px;
@@ -24,7 +29,7 @@
   border-radius: 60px;
 }
 
-.Nav > ul > li.active {
+.Nav ul li.active {
   background-color: var(--primary-normal);
   color: var(--label-white);
 }
