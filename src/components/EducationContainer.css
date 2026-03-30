@@ -1,0 +1,13 @@
+.EducationContainer {
+  max-width: 458px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.EducationContainer .topic {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-normal);
+  text-align: center;
+}

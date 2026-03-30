@@ -1,17 +1,14 @@
 import "./App.css";
-import BookCard from "./components/card/BookCard";
-import SKILL from "./assets/content/skillsEnum";
+import EducationContainer from "./components/EducationContainer";
+import { educations } from "./data/educations";
 
 function App() {
   return (
     <>
       <div>
-        <BookCard
-          label={"PC/Mobile"}
-          title={"Haewooglobalcargo map 앱 UX/UI"}
-          date={"May,2024"}
-          skills={[SKILL.FIGMA]}
-        />
+        {educations.map((item) => (
+          <EducationContainer key={item.topic} {...item} />
+        ))}
       </div>
     </>
   );
