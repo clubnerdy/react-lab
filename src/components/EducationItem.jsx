@@ -6,9 +6,9 @@ const EducationItem = ({ title, date, state, position, description }) => {
       <h4 className="title">{title}</h4>
       <div className="description">
         <ul>
-          <li>{date}</li>
-          <li>{state}</li>
-          {position && <li>{position}</li>}
+          <li className="edu_con">{date}</li>
+          <li className="edu_con">{state}</li>
+          {position && <li className="edu_con">{position}</li>}
         </ul>
         <p>{description}</p>
       </div>

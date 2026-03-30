@@ -3,13 +3,15 @@ import SKILL from "@/assets/content/skillsEnum";
 // icon
 import navIcon from "./icon/icon-nav.svg";
 import companyIcon from "./icon/icon-company.svg";
+import downLoadIcon from "./icon/icon-download.svg";
 
-export { navIcon, companyIcon };
+export { navIcon, companyIcon, downLoadIcon };
 
 // image
 import examImage from "./images/example.png";
+import brain from "./images/brain.png";
 
-export { examImage };
+export { examImage, brain };
 
 //skills
 import html from "./images/skills/html.svg";
