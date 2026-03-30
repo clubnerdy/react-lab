@@ -8,7 +8,7 @@ const EducationItem = ({ title, date, state, position, description }) => {
         <ul>
           <li>{date}</li>
           <li>{state}</li>
-          <li>{position}</li>
+          {position && <li>{position}</li>}
         </ul>
         <p>{description}</p>
       </div>

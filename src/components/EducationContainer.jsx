@@ -1,12 +1,13 @@
 import "./EducationContainer.css";
 import EducationItem from "./EducationItem";
 
-const EducationContainer = () => {
+const EducationContainer = ({ topic, contents }) => {
   return (
     <div className="EducationContainer">
-      <h3 className="topic">학력</h3>
-      <EducationItem />
-      <EducationItem />
+      <h3 className="topic">{topic}</h3>
+      {contents.map((item) => (
+        <EducationItem key={item.id} {...item} />
+      ))}
     </div>
   );
 };
