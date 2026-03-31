@@ -1,0 +1,10 @@
+.Book {
+  width: 100%;
+  padding: 160px 0;
+}
+
+.Book .inner .book_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
