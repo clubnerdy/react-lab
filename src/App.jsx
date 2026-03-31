@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Skill from "./sections/Skill";
 import Ability from "./sections/Ability";
 import Career from "./sections/Career";
+import Project from "./sections/Project";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Ability />
       <Skill />
       <Career />
+      <Project />
     </>
   );
 }
