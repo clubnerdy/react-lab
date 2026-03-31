@@ -7,6 +7,7 @@ import Career from "./sections/Career";
 import Project from "./sections/Project";
 import Blog from "./sections/Blog";
 import Book from "./sections/Book";
+import Education from "./sections/Education";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Project />
       <Blog />
       <Book />
+      <Education />
     </>
   );
 }
