@@ -10,6 +10,8 @@
   color: var(--label-assistive);
   border-radius: 40px;
   border: 1px solid var(--line-normal);
+  cursor: pointer;
+  line-height: 1;
 }
 
 .Category ul li.active {
