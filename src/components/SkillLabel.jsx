@@ -1,6 +1,8 @@
 import "./SkillLabel.css";
 
 const SkillLabel = ({ skills }) => {
+  if (!skills || skills.length === 0) return null;
+
   return (
     <div className="SkillLabel">
       <ul>

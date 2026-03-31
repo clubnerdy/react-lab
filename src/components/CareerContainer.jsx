@@ -1,16 +1,15 @@
 import { companyIcon } from "@/assets";
 import TabList from "./TabList";
 import { useState } from "react";
-import careerProjects from "@/data/projects";
 import CareerCard from "./card/CareerCard";
 import "./CareerContainer.css";
 
-const CareerContainer = () => {
-  const [active, setActive] = useState(1);
+const CareerContainer = ({ company }) => {
+  const [active, setActive] = useState("dev");
   const tabs = [
-    { id: 1, label: "웹 개발" },
-    { id: 2, label: "브랜딩 / 디자인" },
-    { id: 3, label: "콘텐츠 / 운영" },
+    { id: "dev", label: "웹 개발" },
+    { id: "branding", label: "브랜딩 / 디자인" },
+    { id: "contents", label: "콘텐츠 / 운영" },
   ];
 
   return (
@@ -32,7 +31,7 @@ const CareerContainer = () => {
           <TabList tabs={tabs} activeTab={active} onTabChange={setActive} />
         </div>
         <div className="career_list">
-          {careerProjects.map((item) => (
+          {company.map((item) => (
             <CareerCard key={item.id} {...item} />
           ))}
         </div>
