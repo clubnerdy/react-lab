@@ -4,8 +4,9 @@ import SKILL from "@/assets/content/skillsEnum";
 import navIcon from "./icon/icon-nav.svg";
 import companyIcon from "./icon/icon-company.svg";
 import downLoadIcon from "./icon/icon-download.svg";
+import linkIcon from "./icon/icon-link.svg";
 
-export { navIcon, companyIcon, downLoadIcon };
+export { navIcon, companyIcon, downLoadIcon, linkIcon };
 
 // image
 import examImage from "./images/example.png";
