@@ -57,8 +57,9 @@
 }
 
 .ProjectCard .top .column h3 {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
+  line-height: 1.4;
 }
 
 .ProjectCard .top .column p {
