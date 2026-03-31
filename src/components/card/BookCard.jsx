@@ -1,24 +1,22 @@
+import SkillLabel from "../SkillLabel";
 import "./BookCard.css";
-import { examImage } from "@/assets";
 
-const BookCard = ({ label, title, date, skills }) => {
+const BookCard = ({ link, imgUrl, device, title, date, skills }) => {
   return (
     <div className="BookCard">
-      <figure>
-        <img src={examImage} alt="" />
-      </figure>
-      <div className="container">
-        <div className="contents">
-          <p className="label">{label}</p>
-          <h3 className="title">{title}</h3>
-          <p className="date">{date}</p>
+      <a href={link}>
+        <figure>
+          <img src={imgUrl} alt={title} />
+        </figure>
+        <div className="container">
+          <div className="contents">
+            <p className="label">{device}</p>
+            <h3 className="title">{title}</h3>
+            <p className="date">{date}</p>
+          </div>
+          <SkillLabel skills={skills} />
         </div>
-        <ul>
-          {skills.map((skill) => (
-            <li>{skill}</li>
-          ))}
-        </ul>
-      </div>
+      </a>
     </div>
   );
 };

@@ -1,5 +1,9 @@
 .BookCard {
   max-width: 296px;
+}
+
+.BookCard a {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -16,6 +20,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .BookCard .container .contents {
@@ -31,7 +37,7 @@
 }
 
 .BookCard .container .contents .title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -40,18 +46,4 @@
   font-size: 14px;
   font-weight: 500;
   color: var(--label-alternative);
-}
-
-.BookCard .container ul {
-  display: flex;
-  gap: 6px;
-}
-
-.BookCard .container ul li {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--primary-normal);
-  background-color: var(--primary-disable);
-  padding: 8px 12px;
-  border-radius: 20px;
 }
