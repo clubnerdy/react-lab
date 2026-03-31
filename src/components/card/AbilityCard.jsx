@@ -4,7 +4,7 @@ const AbilityCard = ({ imgUrl, title, description }) => {
   return (
     <div className="AbilityCard">
       <figure>
-        <img src={imgUrl} alt="" />
+        <img src={imgUrl} alt={title} />
       </figure>
       <div className="container">
         <h3>{title}</h3>
