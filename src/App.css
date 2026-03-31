@@ -126,3 +126,9 @@ table {
   font-weight: 500;
   color: var(--primary-normal);
 }
+
+.page_description {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--label-assistive);
+}

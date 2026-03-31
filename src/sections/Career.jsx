@@ -1,6 +1,6 @@
 import CareerContainer from "@/components/CareerContainer";
 import "./Career.css";
-import { careerHnl, careerMpr } from "@/data/projects";
+import { careers } from "@/data/careers";
 
 const Career = () => {
   return (
@@ -10,8 +10,11 @@ const Career = () => {
           <h3 className="page_title">경력</h3>
           <p className="page_description">2년 9개월</p>
         </div>
-        <CareerContainer company={careerHnl} />
-        <CareerContainer company={careerMpr} />
+        <div className="company_list">
+          {careers.map((company) => (
+            <CareerContainer key={company.id} {...company} />
+          ))}
+        </div>
       </div>
     </div>
   );

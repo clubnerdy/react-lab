@@ -1,9 +1,6 @@
 import { examImage } from "@/assets";
 import SKILL from "@/assets/content/skillsEnum";
 
-// 임시 목업 데이터
-// 추후 수정 필요
-
 const careerHnl = [
   {
     id: 1,
