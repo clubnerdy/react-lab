@@ -8,7 +8,7 @@ const TabList = ({ tabs, activeTab, onTabChange }) => {
           <li
             key={tab.id}
             onClick={onTabChange}
-            className={activeTab == tab.id ? "active" : ""}
+            className={activeTab == tab.label ? "active" : ""}
           >
             {tab.label}
           </li>

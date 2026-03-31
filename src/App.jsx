@@ -11,6 +11,7 @@ function App() {
       <Nav />
       <div className="box"></div>
       <Ability />
+      <Skill />
     </>
   );
 }

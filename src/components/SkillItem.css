@@ -1,0 +1,17 @@
+.SkillItem {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background-color: var(--background-normal);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  opacity: 0.2;
+}
+
+.SkillItem.active {
+  opacity: 1;
+}
+
+.SkillItem img {
+  width: 100%;
+}
