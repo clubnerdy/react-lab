@@ -3,6 +3,7 @@ import TabList from "./TabList";
 import { useState } from "react";
 import CareerCard from "./card/CareerCard";
 import "./CareerContainer.css";
+import Category from "./Category";
 
 const CareerContainer = ({
   companyName,
@@ -37,7 +38,7 @@ const CareerContainer = ({
         </div>
         {hasTabs && (
           <div className="career_nav">
-            <TabList tabs={tabs} activeTab={active} onTabChange={setActive} />
+            <Category tabs={tabs} isActive={active} onTabChange={setActive} />
           </div>
         )}
         <div className="career_list">
