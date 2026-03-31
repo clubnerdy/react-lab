@@ -6,10 +6,17 @@ const CareerCard = ({ title, date, description, skills }) => {
     <div className="CareerCard">
       <div className="top">
         <h3 className="title">{title}</h3>
-        <p className="date">{date}</p>
+        {date && <p className="date">{date}</p>}
       </div>
       <div className="bottom">
-        <p className="description">{description}</p>
+        <p className="description">
+          {description.map((item, index) => (
+            <span key={index}>
+              {item}
+              <br />
+            </span>
+          ))}
+        </p>
         <SkillLabel skills={skills} />
       </div>
     </div>

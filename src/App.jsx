@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import Nav from "@/components/Nav";
 import Skill from "./sections/Skill";
 import Ability from "./sections/Ability";
+import Career from "./sections/Career";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="box"></div>
       <Ability />
       <Skill />
+      <Career />
     </>
   );
 }
