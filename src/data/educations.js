@@ -56,6 +56,13 @@ const educations = [
         state: "최종합격",
         position: "한국산업인력공단",
       },
+      {
+        id: 3,
+        title: "2종보통운전면허(오토)",
+        date: "2026.01",
+        state: "최종합격",
+        position: "경찰청(운전면허시험관리단)",
+      },
     ],
   },
   {
