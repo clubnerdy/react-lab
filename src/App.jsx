@@ -8,6 +8,7 @@ import Project from "./sections/Project";
 import Blog from "./sections/Blog";
 import Book from "./sections/Book";
 import Education from "./sections/Education";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Blog />
       <Book />
       <Education />
+      <Footer />
     </>
   );
 }
