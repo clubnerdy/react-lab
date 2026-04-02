@@ -1,16 +1,16 @@
 import "./TabList.css";
 
-const TabList = ({ tabs, activeTab, onTabChange }) => {
+const TabList = ({ tabs, activeTab, onChangeTab }) => {
   return (
     <div className="TabList">
       <ul>
         {tabs.map((tab) => (
           <li
-            key={tab.id}
-            onClick={onTabChange}
-            className={activeTab == tab.id ? "active" : ""}
+            key={tab}
+            onClick={() => onChangeTab(tab)}
+            className={activeTab == tab ? "active" : ""}
           >
-            {tab.label}
+            {tab}
           </li>
         ))}
       </ul>

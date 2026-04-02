@@ -7,12 +7,12 @@ import { skillsInfo } from "@/assets";
 const Skill = () => {
   const [activeTab, setActiveTab] = useState("All");
 
-  const tabs = [
-    { id: 1, label: "All" },
-    { id: 2, label: "Dev" },
-    { id: 3, label: "Design" },
-    { id: 4, label: "Collab" },
-  ];
+  const onChangeTab = (tab) => {
+    setActiveTab(tab);
+  };
+
+  const tabs = ["All", "Dev", "Design", "Collab"];
+
   return (
     <section id="Skill" className="Skill">
       <div className="inner">
@@ -21,7 +21,7 @@ const Skill = () => {
           <TabList
             tabs={tabs}
             activeTab={activeTab}
-            onTabChange={setActiveTab}
+            onChangeTab={onChangeTab}
           />
           <div className="skill_list">
             {skillsInfo.map((item) => (
@@ -29,6 +29,7 @@ const Skill = () => {
                 key={item.name}
                 imgUrl={item.src}
                 name={item.name}
+                type={item.type}
                 isActive={activeTab === "All" || item.type === activeTab}
               />
             ))}
