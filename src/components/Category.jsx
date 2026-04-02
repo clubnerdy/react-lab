@@ -1,14 +1,14 @@
 import "./Category.css";
 
-const Category = ({ tabs, isActive, onTabChange }) => {
+const Category = ({ tabs, activeTab, onChangeTab }) => {
   return (
     <div className="Category">
       <ul>
         {tabs.map((tab) => (
           <li
             key={tab.id}
-            onClick={onTabChange}
-            className={isActive == tab.id ? "active" : ""}
+            onClick={() => onChangeTab(tab.id)}
+            className={activeTab == tab.id ? "active" : ""}
           >
             {tab.label}
           </li>
