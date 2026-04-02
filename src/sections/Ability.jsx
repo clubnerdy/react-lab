@@ -4,7 +4,7 @@ import { abilities } from "@/data/abilities";
 
 const Ability = () => {
   return (
-    <div className="Ability">
+    <section id="Ability" className="Ability">
       <div className="inner">
         <h3 className="page_title">역량</h3>
         <div className="card_list">
@@ -13,7 +13,7 @@ const Ability = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Ability;

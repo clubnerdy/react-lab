@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="Hero">
+    <section id="Hero" className="Hero">
       <div className="inner">
         <div className="container">
           <figure>
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Hero;

@@ -14,7 +14,7 @@ const Skill = () => {
     { id: 4, label: "Collab" },
   ];
   return (
-    <div className="Skill">
+    <section id="Skill" className="Skill">
       <div className="inner">
         <h3 className="page_title">기술</h3>
         <div className="container">
@@ -35,7 +35,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Skill;

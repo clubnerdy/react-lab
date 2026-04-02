@@ -4,7 +4,7 @@ import { designBook } from "@/data/designBook";
 
 const Book = () => {
   return (
-    <div className="Book">
+    <section id="Book" className="Book">
       <div className="inner">
         <h3 className="page_title">Design Book</h3>
         <div className="book_list">
@@ -13,7 +13,7 @@ const Book = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Book;

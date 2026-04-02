@@ -4,7 +4,7 @@ import { detailProjects } from "@/data/projects";
 
 const Project = () => {
   return (
-    <div className="Project">
+    <section id="Project" className="Project">
       <div className="inner">
         <div className="top">
           <p className="description">프로젝트 상세보기</p>
@@ -16,7 +16,7 @@ const Project = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Project;

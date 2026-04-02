@@ -6,7 +6,7 @@ import { examImage, linkIcon } from "@/assets";
 
 const Blog = () => {
   return (
-    <div className="Blog">
+    <section id="Blog" className="Blog">
       <div className="inner">
         <h3 className="page_title">블로그</h3>
         <div className="blog_list">
@@ -51,7 +51,7 @@ const Blog = () => {
           블로그로 이동 <img src={linkIcon} alt="" />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 export default Blog;

@@ -4,7 +4,7 @@ import { educations } from "@/data/educations";
 
 const Education = () => {
   return (
-    <div className="Education">
+    <section id="Education" className="Education">
       <div className="inner">
         <div className="container">
           {educations.map((item) => (
@@ -12,7 +12,7 @@ const Education = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Education;

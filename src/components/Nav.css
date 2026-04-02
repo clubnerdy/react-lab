@@ -4,6 +4,7 @@
   justify-content: center;
   position: sticky;
   top: 20px;
+  z-index: 999;
 }
 
 .Nav .container {
@@ -19,11 +20,11 @@
   padding: 0 16px;
 }
 
-.Nav ul {
+.Nav .nav_list {
   display: flex;
 }
 
-.Nav ul li {
+.Nav .nav_list a {
   padding: 12px 20px;
   cursor: pointer;
   font-size: 14px;
@@ -32,7 +33,7 @@
   border-radius: 60px;
 }
 
-.Nav ul li.active {
+.Nav .nav_list a.active {
   background-color: var(--primary-normal);
   color: var(--label-white);
 }
