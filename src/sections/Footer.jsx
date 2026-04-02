@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="Footer">
+    <footer id="Footer" className="Footer">
       <div className="inner">
         <h3>
           감사합니다

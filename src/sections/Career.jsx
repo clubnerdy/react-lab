@@ -4,7 +4,7 @@ import { careers } from "@/data/careers";
 
 const Career = () => {
   return (
-    <div className="Career">
+    <section id="Career" className="Career">
       <div className="inner">
         <div className="page_top">
           <h3 className="page_title">경력</h3>
@@ -16,7 +16,7 @@ const Career = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Career;
