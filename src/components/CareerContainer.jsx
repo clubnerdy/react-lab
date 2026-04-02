@@ -14,7 +14,14 @@ const CareerContainer = ({
   hasTabs,
   projects,
 }) => {
-  const [active, setActive] = useState("dev");
+  const [activeTab, setActiveTab] = useState("dev");
+
+  const onChangeTab = (tab) => {
+    setActiveTab(tab);
+  };
+
+  const filteredProjects = projects.filter((item) => item.type === activeTab);
+
   const tabs = [
     { id: "dev", label: "웹 개발" },
     { id: "branding", label: "브랜딩 / 디자인" },
@@ -38,12 +45,16 @@ const CareerContainer = ({
         </div>
         {hasTabs && (
           <div className="career_nav">
-            <Category tabs={tabs} isActive={active} onTabChange={setActive} />
+            <Category
+              tabs={tabs}
+              activeTab={activeTab}
+              onChangeTab={onChangeTab}
+            />
           </div>
         )}
         <div className="career_list">
-          {projects.map((item) => (
-            <CareerCard key={item.id} {...item} />
+          {(hasTabs ? filteredProjects : projects).map((item) => (
+            <CareerCard key={item.id} {...item} activeTab={activeTab} />
           ))}
         </div>
       </div>
