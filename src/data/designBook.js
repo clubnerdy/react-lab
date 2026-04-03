@@ -1,11 +1,22 @@
 import SKILL from "@/assets/content/skillsEnum";
-import { examImage } from "@/assets";
+import {
+  examImage,
+  bookHaewoo,
+  bookSosu,
+  bookHnl,
+  bookBall,
+  bookJjava,
+  bookMarry,
+  bookFlutter,
+  bookContent,
+  bookDoc,
+} from "@/assets";
 
 const designBook = [
   {
     id: 1,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookHaewoo,
     device: "PC/Mobile",
     title: "Haewooglobalcargomap 앱 UX/UI",
     date: "May, 2024",
@@ -14,7 +25,7 @@ const designBook = [
   {
     id: 2,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookSosu,
     device: "PC/Mobile",
     title: "소수의원 홈페이지 리뉴얼",
     date: "May, 2024",
@@ -23,7 +34,7 @@ const designBook = [
   {
     id: 3,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookHnl,
     device: "PC/Mobile",
     title: "에이치앤엘홀딩스 홈페이지",
     date: "August, 2024",
@@ -32,7 +43,7 @@ const designBook = [
   {
     id: 4,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookBall,
     device: "Mobile",
     title: "볼까예 앱 UX/UI",
     date: "June, 2025",
@@ -41,7 +52,7 @@ const designBook = [
   {
     id: 5,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookJjava,
     device: "Mobile",
     title: "짜바 앱 UX/UI",
     date: "July, 2025",
@@ -50,7 +61,7 @@ const designBook = [
   {
     id: 6,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookMarry,
     device: "Mobile",
     title: "모바일 청첩장 UX/UI",
     date: "October, 2025",
@@ -59,7 +70,7 @@ const designBook = [
   {
     id: 7,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookFlutter,
     device: "Mobile",
     title: "Flutter 앱 모작",
     date: "2025/2026",
@@ -68,7 +79,7 @@ const designBook = [
   {
     id: 8,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookContent,
     device: "",
     title: "상세페이지 및 썸네일",
     date: "2024",
@@ -77,7 +88,7 @@ const designBook = [
   {
     id: 9,
     link: "/",
-    imgUrl: examImage,
+    imgUrl: bookDoc,
     device: "",
     title: "문서 디자인",
     date: "2024",

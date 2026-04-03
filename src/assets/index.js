@@ -8,27 +8,48 @@ import linkIcon from "./icon/icon-link.svg";
 
 export { navIcon, companyIcon, downLoadIcon, linkIcon };
 
-// image
+// image - public
 import examImage from "./images/example.png";
 import brain from "./images/brain.png";
+
+export { examImage, brain };
+
+// image - Ability
 import ability01 from "./images/ability/ability01.png";
 import ability02 from "./images/ability/ability02.png";
 import ability03 from "./images/ability/ability03.png";
+
+export { ability01, ability02, ability03 };
+
+// image - Project
 import logoSosu from "./images/project/logo-sosu.png";
 import logoHaewoo from "./images/project/logo-haewoo.png";
 import logoBall from "./images/project/logo-ball.png";
 import logoJjava from "./images/project/logo-jjava.png";
 
+export { logoSosu, logoHaewoo, logoBall, logoJjava };
+
+// image - Book
+import bookHaewoo from "./images/book/book-haewoo.png";
+import bookSosu from "./images/book/book-sosu.png";
+import bookHnl from "./images/book/book-hnl.png";
+import bookBall from "./images/book/book-ball.png";
+import bookJjava from "./images/book/book-jjava.png";
+import bookMarry from "./images/book/book-marry.png";
+import bookFlutter from "./images/book/book-flutter.png";
+import bookContent from "./images/book/book-contents.png";
+import bookDoc from "./images/book/book-doc.png";
+
 export {
-  examImage,
-  brain,
-  ability01,
-  ability02,
-  ability03,
-  logoSosu,
-  logoHaewoo,
-  logoBall,
-  logoJjava,
+  bookHaewoo,
+  bookSosu,
+  bookHnl,
+  bookBall,
+  bookJjava,
+  bookMarry,
+  bookFlutter,
+  bookContent,
+  bookDoc,
 };
 
 //skills
