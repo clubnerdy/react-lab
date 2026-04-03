@@ -29,12 +29,8 @@
   max-width: 50px;
   aspect-ratio: 1 / 1;
   border-radius: 8px;
-  background-color: var(--interation-inactive);
   overflow: hidden;
-}
-
-.ProjectCard .top .row figure img {
-  opacity: 0;
+  box-shadow: var(--shadow);
 }
 
 .ProjectCard .top .row .label {

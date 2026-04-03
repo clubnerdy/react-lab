@@ -1,4 +1,4 @@
-import { examImage } from "@/assets";
+import { logoSosu, logoHaewoo, logoBall, logoJjava } from "@/assets";
 import SKILL from "@/assets/content/skillsEnum";
 
 const careerHnl = [
@@ -176,7 +176,7 @@ const careerMpr = [
 const detailProjects = [
   {
     id: 1,
-    imgUrl: examImage,
+    imgUrl: logoSosu,
     label: "Live",
     title: "소수의원 홈페이지 리브랜딩",
     description:
@@ -187,7 +187,7 @@ const detailProjects = [
   },
   {
     id: 2,
-    imgUrl: examImage,
+    imgUrl: logoHaewoo,
     label: "Live",
     title: "GPS 기반 실시간 물류 조회 서비스 해우GLS 하이브리드 앱 프론트 개발",
     description:
@@ -198,7 +198,7 @@ const detailProjects = [
   },
   {
     id: 3,
-    imgUrl: examImage,
+    imgUrl: logoBall,
     label: "Demo",
     title: "야구 예측 커뮤니티 앱 UX/UI 설계 및 프론트 개발",
     description:
@@ -209,7 +209,7 @@ const detailProjects = [
   },
   {
     id: 4,
-    imgUrl: examImage,
+    imgUrl: logoJjava,
     label: "Demo",
     title: "JAVA 언어 학습용 블록코딩 앱 프론트 개발",
     description:
