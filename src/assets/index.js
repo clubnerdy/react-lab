@@ -11,8 +11,11 @@ export { navIcon, companyIcon, downLoadIcon, linkIcon };
 // image
 import examImage from "./images/example.png";
 import brain from "./images/brain.png";
+import ability01 from "./images/ability/ability01.png";
+import ability02 from "./images/ability/ability02.png";
+import ability03 from "./images/ability/ability03.png";
 
-export { examImage, brain };
+export { examImage, brain, ability01, ability02, ability03 };
 
 //skills
 import html from "./images/skills/html.svg";
