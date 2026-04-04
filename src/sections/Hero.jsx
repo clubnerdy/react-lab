@@ -17,7 +17,6 @@ const Hero = () => {
               안녕하세요,
               <br />
               생각하는 <span className="role">{role}</span>
-              생각하는 <span className="role">{role}</span>
               <br />
               <span>서회정</span>입니다.
             </h2>
