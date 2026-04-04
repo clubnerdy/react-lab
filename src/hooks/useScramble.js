@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
-const chars =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz가나다라마바사아자차카타파하";
+const chars = "가나다라마바사아자차카타파하";
+// "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const roles = ["퍼블리셔", "디자이너", "개발자", "기획자"];
 
 const useScramble = () => {
