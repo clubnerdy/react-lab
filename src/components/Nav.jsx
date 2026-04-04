@@ -1,4 +1,4 @@
-import "./Nav.css";
+import "@/styles/components/Nav.css";
 import { navIcon } from "@/assets";
 
 const nav_items = [

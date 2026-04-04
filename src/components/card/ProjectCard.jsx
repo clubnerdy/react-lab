@@ -1,4 +1,4 @@
-import "./ProjectCard.css";
+import "@/styles/components/(card)/ProjectCard.css";
 import { skillsInfo } from "@/assets";
 
 const ProjectCard = ({

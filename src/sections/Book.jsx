@@ -1,5 +1,5 @@
 import BookCard from "@/components/card/BookCard";
-import "./Book.css";
+import "@/styles/sections/Book.css";
 import { designBook } from "@/data/designBook";
 
 const Book = () => {

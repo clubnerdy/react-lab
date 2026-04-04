@@ -1,4 +1,4 @@
-import "./BlogCard.css";
+import "@/styles/components/(card)/BlogCard.css";
 
 const BlogCard = ({ link, imgUrl, date, title }) => {
   return (

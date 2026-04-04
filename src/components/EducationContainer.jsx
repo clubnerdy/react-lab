@@ -1,4 +1,4 @@
-import "./EducationContainer.css";
+import "@/styles/components/EducationContainer.css";
 import EducationItem from "./EducationItem";
 
 const EducationContainer = ({ topic, contents }) => {

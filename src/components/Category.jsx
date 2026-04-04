@@ -1,4 +1,4 @@
-import "./Category.css";
+import "@/styles/components/Category.css";
 
 const Category = ({ tabs, activeTab, onChangeTab }) => {
   return (

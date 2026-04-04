@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TabList from "@/components/TabList";
 import SkillItem from "@/components/SkillItem";
-import "./Skill.css";
+import "@/styles/sections/Skill.css";
 import { skillsInfo } from "@/assets";
 
 const Skill = () => {
