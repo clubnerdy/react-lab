@@ -1,7 +1,10 @@
 import { brain, downLoadIcon } from "@/assets";
 import "./Hero.css";
+import useScramble from "@/hooks/useScramble";
 
 const Hero = () => {
+  const role = useScramble();
+
   return (
     <section id="Hero" className="Hero">
       <div className="inner">
@@ -13,7 +16,7 @@ const Hero = () => {
             <h2 className="title">
               안녕하세요,
               <br />
-              생각하는 개발자
+              생각하는 <span className="role">{role}</span>
               <br />
               <span>서회정</span>입니다.
             </h2>
