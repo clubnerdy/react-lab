@@ -1,4 +1,4 @@
-import "./CareerCard.css";
+import "@/styles/components/(card)/CareerCard.css";
 import SkillLabel from "../SkillLabel";
 
 const CareerCard = ({ title, date, description, skills }) => {

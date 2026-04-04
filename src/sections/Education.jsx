@@ -1,4 +1,4 @@
-import "./Education.css";
+import "@/styles/sections/Education.css";
 import EducationContainer from "@/components/EducationContainer";
 import { educations } from "@/data/educations";
 

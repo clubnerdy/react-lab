@@ -1,5 +1,5 @@
 import { brain, downLoadIcon } from "@/assets";
-import "./Hero.css";
+import "@/styles/sections/Hero.css";
 import useScramble from "@/hooks/useScramble";
 
 const Hero = () => {

@@ -1,5 +1,5 @@
 import AbilityCard from "@/components/card/AbilityCard";
-import "./Ability.css";
+import "@/styles/sections/Ability.css";
 import { abilities } from "@/data/abilities";
 
 const Ability = () => {

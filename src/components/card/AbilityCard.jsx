@@ -1,4 +1,4 @@
-import "./AbilityCard.css";
+import "@/styles/components/(card)/AbilityCard.css";
 
 const AbilityCard = ({ imgUrl, title, description }) => {
   return (

@@ -1,4 +1,4 @@
-import "./TabList.css";
+import "@/styles/components/TabList.css";
 
 const TabList = ({ tabs, activeTab, onChangeTab }) => {
   return (

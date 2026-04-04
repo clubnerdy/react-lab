@@ -1,5 +1,5 @@
 import BlogCard from "@/components/card/BlogCard";
-import "./Blog.css";
+import "@/styles/sections/Blog.css";
 import { examImage, linkIcon } from "@/assets";
 
 // TODO: RSS 작업 필요
