@@ -1,5 +1,5 @@
 import SkillLabel from "../SkillLabel";
-import "./BookCard.css";
+import "@/styles/components/(card)/BookCard.css";
 
 const BookCard = ({ link, imgUrl, device, title, date, skills }) => {
   return (

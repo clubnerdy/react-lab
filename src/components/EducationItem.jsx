@@ -1,4 +1,4 @@
-import "./EducationItem.css";
+import "@/styles/components/EducationItem.css";
 
 const EducationItem = ({ title, date, state, position, description }) => {
   return (

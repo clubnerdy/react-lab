@@ -1,5 +1,5 @@
 import ProjectCard from "@/components/card/ProjectCard";
-import "./Project.css";
+import "@/styles/sections/Project.css";
 import { detailProjects } from "@/data/projects";
 
 const Project = () => {

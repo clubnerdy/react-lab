@@ -1,5 +1,5 @@
 import CareerContainer from "@/components/CareerContainer";
-import "./Career.css";
+import "@/styles/sections/Career.css";
 import { careers } from "@/data/careers";
 
 const Career = () => {

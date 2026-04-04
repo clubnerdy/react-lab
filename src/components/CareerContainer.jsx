@@ -1,8 +1,7 @@
 import { companyIcon } from "@/assets";
-import TabList from "./TabList";
 import { useState } from "react";
 import CareerCard from "./card/CareerCard";
-import "./CareerContainer.css";
+import "@/styles/components/CareerContainer.css";
 import Category from "./Category";
 
 const CareerContainer = ({

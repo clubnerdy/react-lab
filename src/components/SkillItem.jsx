@@ -1,4 +1,4 @@
-import "./SkillItem.css";
+import "@/styles/components/SkillItem.css";
 
 const SkillItem = ({ isActive, imgUrl, name }) => {
   return (
