@@ -115,14 +115,6 @@ table {
   align-items: center;
 }
 
-@media (max-width: 944px) {
-  .inner {
-    width: 100%;
-    padding: 0 24px;
-    gap: 48px;
-  }
-}
-
 .box {
   width: 100%;
   height: 125px;
@@ -139,4 +131,15 @@ table {
   font-size: 12px;
   font-weight: 500;
   color: var(--label-assistive);
+}
+
+@media (max-width: 944px) {
+  .inner {
+    width: 100%;
+    padding: 0 24px;
+    gap: 48px;
+  }
+  .box {
+    height: 40px;
+  }
 }
