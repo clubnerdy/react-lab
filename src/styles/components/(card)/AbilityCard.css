@@ -31,5 +31,26 @@
   .AbilityCard {
     max-width: none;
     width: 100%;
+    gap: 26px;
+  }
+
+  .AbilityCard figure {
+    width: 100%;
+    aspect-ratio: 37 / 27;
+  }
+
+  .AbilityCard figure img {
+    width: 100%;
+  }
+
+  .AbilityCard .container h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .AbilityCard .container p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
   }
 }
