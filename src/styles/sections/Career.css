@@ -26,3 +26,19 @@
     gap: 60px;
   }
 }
+
+@media (max-width: 768px) {
+  .CareerContainer .container .career_header li {
+    text-align: center;
+    padding-right: 6px;
+  }
+  .CareerContainer .container .career_header li:nth-child(1) {
+    padding: 0 6px 0 0;
+  }
+  .CareerContainer .container .career_header li:nth-child(2) {
+    padding: 0 6px;
+  }
+  .CareerContainer .container .career_header li:nth-child(3) {
+    padding: 0 0 0 6px;
+  }
+}

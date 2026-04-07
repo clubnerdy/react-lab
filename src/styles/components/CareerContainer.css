@@ -55,7 +55,7 @@
   align-items: start;
 }
 
-@media (max-width: 944px) {
+@media (max-width: 768px) {
   .CareerContainer .container .career_list {
     grid-template-columns: 1fr;
   }

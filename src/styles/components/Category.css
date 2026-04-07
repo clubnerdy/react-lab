@@ -25,3 +25,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 768px) {
+  .Category ul {
+    justify-content: center;
+  }
+}
