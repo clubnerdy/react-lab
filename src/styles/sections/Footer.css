@@ -42,4 +42,8 @@
   .Footer .container {
     padding: 20px 16px;
   }
+
+  .Footer h3 {
+    font-size: 22px;
+  }
 }
