@@ -31,3 +31,14 @@
     justify-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .Skill .container {
+    width: 100%;
+  }
+  .Skill .container .skill_list {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+}
