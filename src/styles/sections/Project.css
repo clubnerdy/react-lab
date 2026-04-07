@@ -30,10 +30,15 @@
 
 @media (max-width: 944px) {
   .Project {
-    padding: 80px 0;
+    padding: 120px 0;
+  }
+
+  .Project .inner .top .title {
+    font-size: 18px;
   }
 
   .Project .inner .project_list {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 }

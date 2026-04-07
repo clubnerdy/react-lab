@@ -27,10 +27,21 @@
 @media (max-width: 944px) {
   .Blog {
     height: auto;
-    padding: 80px 0;
+    padding: 120px 0;
   }
 
   .Blog .inner .blog_list {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Blog .inner .blog_list {
+    width: 100%;
     grid-template-columns: 1fr;
+  }
+
+  .Blog .inner .blog_list {
+    gap: 12px;
   }
 }

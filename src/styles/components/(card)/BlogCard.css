@@ -1,6 +1,6 @@
 .BlogCard {
   max-width: 296px;
-  height: 216px;
+  aspect-ratio: 37 / 27;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@
 }
 
 .BlogCard a figure img {
-  height: 100%;
+  width: 100%;
 }
 
 .BlogCard a .contents {
@@ -52,5 +52,13 @@
 @media (max-width: 944px) {
   .BlogCard {
     max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .BlogCard:nth-child(3),
+  .BlogCard:nth-child(4),
+  .BlogCard:nth-child(5) {
+    display: none;
   }
 }
