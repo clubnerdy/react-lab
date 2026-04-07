@@ -14,7 +14,31 @@
 
 .Skill .container .skill_list {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(6, 1fr);
   gap: 28px;
+}
+
+@media (max-width: 944px) {
+  .Skill {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .Skill .container .skill_list {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Skill .container {
+    width: 100%;
+  }
+  .Skill .container .skill_list {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
 }

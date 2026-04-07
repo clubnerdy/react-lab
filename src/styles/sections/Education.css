@@ -8,3 +8,9 @@
   flex-direction: column;
   gap: 68px;
 }
+
+@media (max-width: 944px) {
+  .Education {
+    padding: 120px 0;
+  }
+}

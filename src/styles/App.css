@@ -132,3 +132,17 @@ table {
   font-weight: 500;
   color: var(--label-assistive);
 }
+
+@media (max-width: 944px) {
+  .inner {
+    width: 100%;
+    padding: 0 16px;
+    gap: 48px;
+  }
+  .box {
+    height: 40px;
+  }
+  .page_title {
+    font-size: 22px;
+  }
+}

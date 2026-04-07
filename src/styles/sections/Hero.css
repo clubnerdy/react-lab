@@ -58,3 +58,19 @@
 .Hero .inner .contents a img {
   width: 15px;
 }
+
+/* mobile */
+@media (max-width: 944px) {
+  .Hero {
+    height: calc(100vh - 80px);
+    padding: 80px 0;
+  }
+
+  .Hero .container figure {
+    width: 90px;
+  }
+
+  .Hero .inner .contents .title {
+    font-size: 32px;
+  }
+}

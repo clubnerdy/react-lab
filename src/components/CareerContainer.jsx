@@ -7,7 +7,6 @@ import Category from "./Category";
 const CareerContainer = ({
   companyName,
   period,
-  employment,
   role,
   position,
   hasTabs,
@@ -37,7 +36,6 @@ const CareerContainer = ({
           <h3>{companyName}</h3>
           <ul>
             <li>{period}</li>
-            <li>{employment}</li>
             <li>{role}</li>
             <li>{position}</li>
           </ul>

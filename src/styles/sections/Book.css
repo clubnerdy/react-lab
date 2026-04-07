@@ -8,3 +8,19 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
+
+@media (max-width: 944px) {
+  .Book {
+    padding: 120px 0;
+  }
+
+  .Book .inner .book_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Book .inner .book_list {
+    grid-template-columns: 1fr;
+  }
+}
