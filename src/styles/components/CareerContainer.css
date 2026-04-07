@@ -54,3 +54,9 @@
   grid-gap: 28px;
   align-items: start;
 }
+
+@media (max-width: 944px) {
+  .CareerContainer .container .career_list {
+    grid-template-columns: 1fr;
+  }
+}

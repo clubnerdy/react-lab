@@ -26,3 +26,10 @@
   font-weight: 400;
   color: var(--label-alternative);
 }
+
+@media (max-width: 944px) {
+  .AbilityCard {
+    max-width: none;
+    width: 100%;
+  }
+}

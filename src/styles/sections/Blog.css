@@ -24,3 +24,14 @@
 .Blog .inner > a img {
   width: 18px;
 }
+
+@media (max-width: 944px) {
+  .Blog {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .Blog .inner .blog_list {
+    grid-template-columns: 1fr;
+  }
+}

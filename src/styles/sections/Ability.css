@@ -10,3 +10,15 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 944px) {
+  .Ability {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .Ability .card_list {
+    flex-direction: column;
+    gap: 48px;
+  }
+}

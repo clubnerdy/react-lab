@@ -58,3 +58,22 @@
 .Hero .inner .contents a img {
   width: 15px;
 }
+
+@media (max-width: 944px) {
+  .Hero {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .Hero .container figure {
+    width: 72px;
+  }
+
+  .Hero .inner .contents {
+    gap: 28px;
+  }
+
+  .Hero .inner .contents .title {
+    font-size: 28px;
+  }
+}

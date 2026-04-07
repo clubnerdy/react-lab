@@ -20,3 +20,17 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 28px;
 }
+
+@media (max-width: 944px) {
+  .Skill {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .Skill .container .skill_list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+    justify-items: center;
+  }
+}
