@@ -11,10 +11,16 @@
 
 @media (max-width: 944px) {
   .Book {
-    padding: 80px 0;
+    padding: 120px 0;
   }
 
   .Book .inner .book_list {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Book .inner .book_list {
+    grid-template-columns: 1fr;
   }
 }

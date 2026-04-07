@@ -12,9 +12,14 @@
 
 .BookCard figure {
   width: 100%;
+  aspect-ratio: 37 / 27;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow);
+}
+
+.BookCard figure img {
+  width: 100%;
 }
 
 .BookCard .container {
