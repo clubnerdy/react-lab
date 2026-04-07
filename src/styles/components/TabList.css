@@ -23,3 +23,10 @@
   background-color: var(--background-normal);
   color: var(--primary-normal);
 }
+
+@media (max-width: 944px) {
+  .TabList > ul > li {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
