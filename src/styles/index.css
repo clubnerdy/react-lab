@@ -14,6 +14,7 @@
   --fill-normal: rgba(112, 115, 124, 0.08);
   --fill-strong: rgba(112, 115, 124, 0.16);
   --fill-alternative: rgba(112, 115, 124, 0.05);
+  --fill-navigation: rgba(255, 255, 255, 0.6);
 
   /* label */
   --label-normal: #171719;

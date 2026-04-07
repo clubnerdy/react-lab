@@ -3,17 +3,18 @@
   display: flex;
   justify-content: center;
   position: sticky;
-  top: 20px;
+  top: 40px;
   z-index: 999;
 }
 
 .Nav .container {
   display: inline-flex;
   align-items: center;
-  background-color: var(--fill-normal);
+  background-color: var(--fill-navigation);
   border-radius: 60px;
   overflow: hidden;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(1px);
 }
 
 .Nav .nav_icon {
@@ -29,7 +30,7 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--label-assistive);
+  color: var(--label-alternative);
   border-radius: 60px;
 }
 
