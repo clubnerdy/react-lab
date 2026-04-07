@@ -17,6 +17,13 @@
   }
 
   .Ability .card_list {
+    gap: 28px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Ability .card_list {
     flex-direction: column;
     gap: 56px;
     padding: 0 16px;
