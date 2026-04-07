@@ -1,7 +1,11 @@
+<br>
+
 나를 소개하고 작업물을 담은 공간입니다.  
 React + TypeScript로 구현되었습니다.
 
-# 개인 페이지
+<br>
+
+# Clubnerdy 개인 페이지
 
 <br>
 
@@ -35,7 +39,7 @@ src/
 │   ├── content
 │   ├── icon
 │   ├── images
-│   └── index.js
+│   └── index.ts
 ├── components/
 │   ├── card
 │   └── ...
@@ -51,13 +55,15 @@ src/
 │   │   └── ...
 │   ├── App.css
 │   └── index.css
-├── App.jsx
-└── main.jsx
+├── types/
+│   └── index.ts
+├── App.tsx
+└── main.tsx
 ```
 
 <br>
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 레포지토리 클론
@@ -72,13 +78,9 @@ npm run dev
 
 <br>
 
-## 🤖 Claude Code와 함께
+## Claude Code와 함께
 
 이 프로젝트는 **[Claude Code](https://claude.ai/code)** (CLI)를 활용하여 개발되었습니다.
 
 - 반응형 레이아웃 작업 (브레이크포인트 설계 및 미디어 쿼리 구현)
-
-```bash
-# Claude Code 실행
-claude
-```
+- TypeScript 마이그레이션 작업
