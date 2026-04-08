@@ -1,6 +1,11 @@
 import SKILL from "@/assets/content/skillsEnum";
 import type { SkillInfo } from "@/types";
 
+// document
+import resume from "./doc/doc-resume.pdf";
+
+export { resume };
+
 // icon
 import navIcon from "./icon/icon-nav.svg";
 import companyIcon from "./icon/icon-company.svg";
