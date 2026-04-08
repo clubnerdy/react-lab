@@ -4,10 +4,17 @@ import type { DesignBookItem } from "@/types";
 
 type BookCardProps = Omit<DesignBookItem, "id">;
 
-const BookCard = ({ link, imgUrl, device, title, date, skills }: BookCardProps) => {
+const BookCard = ({
+  link,
+  imgUrl,
+  device,
+  title,
+  date,
+  skills,
+}: BookCardProps) => {
   return (
     <div className="BookCard">
-      <a href={link}>
+      <a href={link} target="_blank">
         <figure>
           <img src={imgUrl} alt={title} />
         </figure>
