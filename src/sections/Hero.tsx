@@ -1,4 +1,4 @@
-import { brain, downLoadIcon } from "@/assets";
+import { brain, downLoadIcon, resume } from "@/assets";
 import "@/styles/sections/Hero.css";
 import useScramble from "@/hooks/useScramble";
 
@@ -27,7 +27,7 @@ const Hero = () => {
               <br />
               함께 제품을 만들고 성장할 팀을 찾고 있습니다.
             </p>
-            <a href="/" target="_blank" rel="noreferrer">
+            <a href={resume} target="_blank" rel="noreferrer">
               이력서 다운로드 <img src={downLoadIcon} alt="" />
             </a>
           </div>
