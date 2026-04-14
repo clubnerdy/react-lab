@@ -35,7 +35,7 @@ const careerHnl: CareerProject[] = [
     date: "2024.06 - 2024.8",
     description: ["자사에서 서비스하는 통합 광고 관리 플랫폼 페이지 제작"],
     skills: [SKILL.HTML, SKILL.CSS, SKILL.JAVASCRIPT],
-    link: "/",
+    link: "",
     type: "dev",
   },
   {
@@ -60,7 +60,7 @@ const careerHnl: CareerProject[] = [
       "인터렉티브 반응형 웹 페이지 퍼블리싱",
     ],
     skills: [SKILL.HTML, SKILL.CSS, SKILL.JAVASCRIPT],
-    link: "/",
+    link: "",
     type: "dev",
   },
   {

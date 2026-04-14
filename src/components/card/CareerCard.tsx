@@ -11,9 +11,9 @@ const CareerCard = ({
   skills,
   link,
 }: CareerCardProps) => {
-  return (
-    <div className="CareerCard">
-      <a href={link} target="_blank">
+  if (link) {
+    return (
+      <a className="CareerCard" href={link} target="_blank">
         <div className="top">
           <h3 className="title">{title}</h3>
           {date && <p className="date">{date}</p>}
@@ -30,6 +30,26 @@ const CareerCard = ({
           <SkillLabel skills={skills} />
         </div>
       </a>
+    );
+  }
+
+  return (
+    <div className="CareerCard">
+      <div className="top">
+        <h3 className="title">{title}</h3>
+        {date && <p className="date">{date}</p>}
+      </div>
+      <div className="bottom">
+        <p className="description">
+          {description.map((item, index) => (
+            <span key={index}>
+              {item}
+              <br />
+            </span>
+          ))}
+        </p>
+        <SkillLabel skills={skills} />
+      </div>
     </div>
   );
 };
