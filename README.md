@@ -37,6 +37,7 @@ React + TypeScript로 구현되었습니다.
 src/
 ├── assets/
 │   ├── content
+│   ├── doc
 │   ├── icon
 │   ├── images
 │   └── index.ts
