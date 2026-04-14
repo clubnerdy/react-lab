@@ -1,0 +1,30 @@
+.Ability {
+  width: 100%;
+  min-height: 100vh;
+  padding: 160px 0;
+}
+
+.Ability .card_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 944px) {
+  .Ability {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .Ability .card_list {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Ability .card_list {
+    flex-direction: column;
+    gap: 56px;
+    padding: 0 16px;
+  }
+}

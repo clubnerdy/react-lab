@@ -1,0 +1,64 @@
+.BlogCard {
+  max-width: 296px;
+  aspect-ratio: 37 / 27;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.BlogCard a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.BlogCard a figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.BlogCard a figure img {
+  width: 100%;
+}
+
+.BlogCard a .contents {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.BlogCard a .contents p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--label-white);
+}
+
+.BlogCard a .contents h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--label-white);
+  line-height: 1.2;
+}
+
+@media (max-width: 944px) {
+  .BlogCard {
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .BlogCard:nth-child(3),
+  .BlogCard:nth-child(4),
+  .BlogCard:nth-child(5) {
+    display: none;
+  }
+}

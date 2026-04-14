@@ -1,0 +1,32 @@
+.TabList {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--fill-normal);
+  border-radius: 60px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.TabList > ul {
+  display: flex;
+}
+
+.TabList > ul > li {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--label-assistive);
+  border-radius: 60px;
+}
+
+.TabList > ul > li.active {
+  background-color: var(--background-normal);
+  color: var(--primary-normal);
+}
+
+@media (max-width: 944px) {
+  .TabList > ul > li {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}

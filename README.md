@@ -1,65 +1,87 @@
-# Personal Portfolio
-
-개인 포트폴리오 페이지입니다.  
-HTML, CSS, JavaScript 기반으로 먼저 구현한 뒤,
-**React**로 리팩토링된 최종 버전입니다.
-
-<br>
 <br>
 
-## 🧩 Tech Stack
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-- **React**
+나를 소개하고 작업물을 담은 공간입니다.  
+React + TypeScript로 구현되었습니다.
 
 <br>
+
+# Clubnerdy 개인 페이지
+
+<br>
+
+## 🛠 Tech Stack
+
+| 분류      | 기술                                |
+| --------- | ----------------------------------- |
+| Language  | TypeScript                          |
+| Framework | React                               |
+| Styling   | CSS3 (CSS Variables, Flexbox, Grid) |
+| AI Tool   | Claude Code (CLI)                   |
+| Build     | Vite                                |
+
 <br>
 
 ## ✨ Features
 
 - 반응형 레이아웃
-- 메인 소개 섹션 (About)
-- 프로젝트/작업물 리스트 섹션
-- 간단한 연락/소셜 링크 섹션
-- 재사용 가능한 기본 컴포넌트 스타일 (버튼, 카드 등)
+- 섹션별 스크롤 내비게이션 (IntersectionObserver 기반)
+- About / Projects / Contact 섹션
+- 경력 카드 + 탭 필터링
+- 재사용 가능한 컴포넌트 설계 (Button, Card 등)
 
 <br>
-<br>
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
-⚠️⚠️⚠️⚠️수정 필요함!!
-
-```bash
-.
-├── index.html
-├── /style
-│   ├── bp.css
-│   ├── common.css
-│   ├── public.css
-│   └── reset.css
-├── /script
-│   └── main.js
-└── /assets
-    ├── doc
-    └── images
+```
+src/
+├── assets/
+│   ├── content
+│   ├── doc
+│   ├── icon
+│   ├── images
+│   └── index.ts
+├── components/
+│   ├── card
+│   └── ...
+├── data
+├── hooks
+├── sections/
+│   ├── ...
+├── styles/
+│   ├── components/
+│   │   ├── (card)
+│   │   └── ...
+│   ├── sections/
+│   │   └── ...
+│   ├── App.css
+│   └── index.css
+├── types/
+│   └── index.ts
+├── App.tsx
+└── main.tsx
 ```
 
 <br>
-<br>
 
-## 🚀 How to Run
-
-### 1. 이 레포지토리를 클론합니다.
+## Getting Started
 
 ```bash
-git clone 레포지토리 주소
-```
+# 레포지토리 클론
+git clone [repo-url]
 
-### 2. 새 터미널을 열고 개발자 모드로 실행합니다.
+# 의존성 설치
+npm install
 
-```bash
+# 개발 서버 실행
 npm run dev
 ```
+
+<br>
+
+## Claude Code와 함께
+
+이 프로젝트는 **[Claude Code](https://claude.ai/code)** (CLI)를 활용하여 개발되었습니다.
+
+- 반응형 레이아웃 작업 (브레이크포인트 설계 및 미디어 쿼리 구현)
+- TypeScript 마이그레이션 작업

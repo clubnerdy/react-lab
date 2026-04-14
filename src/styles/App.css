@@ -1,0 +1,148 @@
+/* ===========================
+   Reset & Base Styles
+   =========================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===========================
+        Typography
+        =========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-size: inherit;
+  font-weight: inherit;
+  color: var(--label-normal);
+}
+
+/* ===========================
+        List
+        =========================== */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ===========================
+        Link
+        =========================== */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===========================
+        Media
+        =========================== */
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+/* ===========================
+        Form
+        =========================== */
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* ===========================
+        Table
+        =========================== */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.inner {
+  width: 944px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 125px;
+  background-color: var(--background-normal);
+}
+
+.page_title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-normal);
+}
+
+.page_description {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--label-assistive);
+}
+
+@media (max-width: 944px) {
+  .inner {
+    width: 100%;
+    padding: 0 16px;
+    gap: 48px;
+  }
+  .box {
+    height: 40px;
+  }
+  .page_title {
+    font-size: 22px;
+  }
+}

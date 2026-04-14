@@ -1,0 +1,61 @@
+.BookCard {
+  width: 100%;
+<<<<<<< HEAD:src/components/card/BookCard.css
+  height: 100%;
+=======
+  max-width: 296px;
+>>>>>>> master:src/styles/components/(card)/BookCard.css
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.BookCard figure {
+  width: 100%;
+  aspect-ratio: 37 / 27;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.BookCard figure img {
+  width: 100%;
+}
+
+.BookCard .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.BookCard .container .contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.BookCard .container .contents .label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--label-alternative);
+}
+
+.BookCard .container .contents .title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.BookCard .container .contents .date {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--label-alternative);
+}
+
+@media (max-width: 944px) {
+  .BookCard {
+    max-width: none;
+  }
+}
