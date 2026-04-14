@@ -8,12 +8,12 @@ const careerHnl: CareerProject[] = [
     title: "주식회사 해우지엘에스 하이브리드앱 제작",
     date: "2024.05 - 2024.9",
     description: [
-      "GPS 기반 실시간 물류조회 서비스 앱 제작",
+      "GPS 기반 실시간 물류조회 서비스 s앱 제작",
       "웹 페이지, 앱 화면 기획 및 디자인, 퍼블리싱",
       "화주, 임직원, 운송자 대상 통합 물류 플랫폼",
     ],
     skills: [SKILL.HTML, SKILL.CSS, SKILL.JAVASCRIPT],
-    link: "/",
+    link: "https://bevel-balmoral-242.notion.site/GLS-2c2adb511d798038b738fd1a6d4c7308?source=copy_link",
     type: "dev",
   },
   {
@@ -26,7 +26,7 @@ const careerHnl: CareerProject[] = [
       "화주, 임직원, 운송자 대상 통합 물류 플랫폼",
     ],
     skills: [SKILL.HTML, SKILL.CSS, SKILL.JAVASCRIPT],
-    link: "/",
+    link: "https://hnlholdings.co.kr",
     type: "dev",
   },
   {
@@ -48,7 +48,7 @@ const careerHnl: CareerProject[] = [
       "네이버 지도 API 추가로 네이버 플레이스 연동",
     ],
     skills: [SKILL.REACT, SKILL.NEXTJS, SKILL.TYPESCRIPT],
-    link: "/",
+    link: "https://bevel-balmoral-242.notion.site/2c2adb511d7980159882dbe1b548e2d9?source=copy_link",
     type: "dev",
   },
   {

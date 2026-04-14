@@ -1,9 +1,13 @@
 .CareerCard {
-  min-height: 249px;
-  padding: 28px;
+  height: 249px;
   border: 1px solid var(--line-normal);
   border-radius: 16px;
   overflow: hidden;
+}
+
+.CareerCard a {
+  height: 100%;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   gap: 12px;
