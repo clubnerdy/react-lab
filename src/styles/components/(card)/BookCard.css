@@ -1,10 +1,6 @@
 .BookCard {
   width: 100%;
-<<<<<<< HEAD:src/components/card/BookCard.css
-  height: 100%;
-=======
   max-width: 296px;
->>>>>>> master:src/styles/components/(card)/BookCard.css
   display: flex;
   flex-direction: column;
   gap: 20px;
