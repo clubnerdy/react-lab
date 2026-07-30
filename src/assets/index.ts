@@ -45,6 +45,7 @@ import bookMarry from "./images/book/book-marry.png";
 import bookFlutter from "./images/book/book-flutter.png";
 import bookContent from "./images/book/book-contents.png";
 import bookDoc from "./images/book/book-doc.png";
+import bookInstagram from "./images/book/book-instagram.png";
 
 export {
   bookHaewoo,
@@ -56,6 +57,7 @@ export {
   bookFlutter,
   bookContent,
   bookDoc,
+  bookInstagram,
 };
 
 // skills
