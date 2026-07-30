@@ -97,7 +97,7 @@ const designBook: DesignBookItem[] = [
   },
   {
     id: 10,
-    link: "https://www.figma.com/design/apYVWa5PqjqU6BAmg8riz6/%EB%B3%91%EC%9D%98%EC%9B%90%EC%BB%A8%ED%85%90%EC%B8%A0%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=M7L7MPdNMcX5gqOh-1",
+    link: "https://www.figma.com/design/apYVWa5PqjqU6BAmg8riz6/%EB%B3%91%EC%9D%98%EC%9B%90%EC%BB%A8%ED%85%90%EC%B8%A0%EB%94%94%EC%9E%90%EC%9D%B8?node-id=19-2&t=M5sAqaE3VdYIHMJ4-1",
     imgUrl: bookInstagram,
     device: "",
     title: "병의원 컨텐츠 디자인",
